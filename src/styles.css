@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr&display=swap');
+:root {
+  --primary-color: #e72c30;
+  --background-color: #060606;
+  --secondary-color: #e72c30;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Mitr', sans-serif;
+  text-align: center;
+  color: var(--primary-color);
+  background: var(--background-color);
+}
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)),
+ center center/cover no-repeat;
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-flow: column nowrap;
+}
+header p {
+  margin-top: 1rem;
+}
+.buttons {
+  margin-top: 5rem;
+}
+.buttons button,
+.songContent a {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 0.8rem;
+  margin: 0.5rem;
+  background-color: var(--secondary-color);
+  outline: none;
+}
+.buttons button{
+  font-weight: bolder;
+  font-size: 1rem;
+}
+.buttons button:hover,
+.songContent a:hover{
+  
+  border: 0.5x solid #e72c30;
+    color: #000000;
+}
+.songs {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 6rem;
+  margin: 1rem auto;
+  padding: 2rem;
+  max-width: 1000px;
+  border-radius: 3px;
+}
+.song {
+  display: flex;
+  flex-flow: column wrap;
+  border: #e72c30;
+  border-radius: 25px;
+  width: 300px;
+  transition: box-shadow 0.3s;
+}
+.songImg {
+  width: 100%;
+  border-radius: 30px;
+}
+.songContent {
+  text-align: center;
+  height: 135px;
+  font-family: 'Mitr', sans-serif;
+  font-family: 'PT Sans', sans-serif;
+}
+.songContent h4 {
+  font-size: 1.3rem;
+  margin: 1rem;
+}
+.songContent a {
+  text-decoration: none;
+  margin-top: 1rem;
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.733);
+  border-radius: 6px;
+}
+.song:hover {
+  box-shadow: 0 0 10px #e72c30;
+}
