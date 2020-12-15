@@ -35,7 +35,7 @@ export default function App() {
                 <h4> {song.name}</h4>
                 <p> {song.singer}</p>
                 <a href={song.songURL} target="">
-                  Listen on Gaana 🎵 
+                   Play song 🎵 
                 </a>
               </div>
             </div>
