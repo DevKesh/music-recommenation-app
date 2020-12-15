@@ -30,7 +30,7 @@ export const data = {
         singer: "Eminem",
         imgURL:
           "https://a10.gaanacdn.com/images/playlists/7/439307/crop_175x175_1587110833_439307.jpg",
-        songURL: "https://gaana.com/playlist/gaana-dj-best-of-eminem"
+        songURL: "https://gaana.com/song/lose-yourself-18"
       },
       {
         name: "Beleiver",
